@@ -1,0 +1,112 @@
+html {
+  font-size: 14px;
+  position: relative;
+  min-height: 100%;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+body {
+  margin: 20px 60px 0px 20px;
+  justify-content: center;
+  align-items: center;
+
+}
+
+footer {
+  position: fixed; 
+  bottom: 0; 
+  margin: 10px 0px 20px 0px;
+}
+
+
+    .menu
+    {
+        list-style: none;
+        padding: 0%;
+        width: 100%;
+        
+        margin: auto;
+        background-color: rgb(25, 129, 219);
+    }
+
+    .menu li a
+    {
+         text-decoration: none;
+         color: white;
+         padding: 20px;
+         display: block;
+    }
+
+    .menu li
+    {
+        display: inline-block;
+        text-align: center;
+    }
+
+    .menu li:hover
+    {
+        background-color: rgb(221, 172, 36);
+    }
+
+    input
+    {
+      padding: 15px 10px;
+      font-weight: 700;
+      border-radius: 10px;
+      background-color: rgb(127, 206, 255);
+    }
+
+    input:hover
+    {
+      background-color: transparent;
+      border: 2px solid rgb(127, 206, 255);
+      color: rgb(127, 206, 255);
+    }
+
+   button
+    {
+        padding: 15px 10px;
+        font-weight: 700;
+        border-radius: 10px;
+        background-color: rgb(127, 206, 255);
+    }
+
+    button:hover
+    {
+        background-color: transparent;
+        border: 2px solid rgb(127, 206, 255);
+        color: rgb(127, 206, 255);
+    }
+    .respuesta
+    {
+        padding: 15px 10px;
+        font-weight: 700;
+        border-radius: 10px;
+        background-color: rgb(127, 206, 255);
+    }
+    .respuesta:hover
+    {
+        background-color: transparent;
+        border: 2px solid rgb(127, 206, 255);
+        color: rgb(127, 206, 255);
+    }
+
+    .ingresar
+    {
+        padding: 15px 10px;
+        font-weight: 700;
+        border-radius: 10px;
+    }
+
+    p
+    {
+      font-size: 24px;
+    }
+
+
+

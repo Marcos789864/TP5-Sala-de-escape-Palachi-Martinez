@@ -1,0 +1,32 @@
+<form action = '@Url.Action("Habitacion","Home")'>
+<input type="hidden" name="sala" value="4">
+
+<ul class="menu">  
+    <lu><img src="/Imagenes/Mi proyecto (21).png" width="284" height="75"></lu>
+ <li> <a href="#">Inicio </a></li>
+
+  <li> <a href='@Url.Action("Comenzar")'>Jugar </a></li>
+  <li> <a href= 'Tutorial'>Tutorial</a></li>
+  <li> <a href="Creditos">Sobre nosotros </a></li>
+</ul>
+</nav>
+<center>
+
+
+
+<p> Es necesitado para llevar a cabo nuestro cometido y una vez utilizado podremos dar por finalizado nuestro recorrido. ¿Que es?</p>
+
+
+
+
+<input class = "ingresar "type="text" name="clave">
+<input type="button" onclick="alert('Pista1: Tiene dientes y el cofre protege')" value="Pista">
+<input type="button" onclick="alert('Pista2: ¿Que utilizamos para abrir la puerta de nuestra casa?')" value="Pista Extra">
+
+
+
+
+    <input class= "respuesta"type="submit" value="Adivinar">
+
+</center>
+</form>

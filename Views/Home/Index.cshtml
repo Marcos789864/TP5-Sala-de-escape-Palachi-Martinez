@@ -1,0 +1,132 @@
+﻿@{
+    ViewData["Title"] = "Sala de escape";
+}
+
+<style>
+   
+
+    .cards
+    {
+        display: flex;
+        justify-content: center;
+    }
+
+    .card 
+    {
+        width: 13%;
+        margin: 20px;
+        overflow: hidden;
+        cursor: default;
+        box-shadow: 0px 1px 10px rgba(0,0,0,0.2);
+        transition: all 400ms ease;
+        display: ;
+    }
+
+    .card:hover
+    {
+        box-shadow: 5px 5px 20px rgba(0,0,0,0.4);
+        transform: translateY(-3%);
+        background-color: rgb(221, 172, 36);
+        
+    }
+
+  
+
+    .menu
+    {
+        list-style: none;
+        padding: 0%;
+        width: auto;
+        margin: 0%;
+        background-color: rgb(25, 129, 219);
+        top: auto;
+        
+    }
+
+    .menu li a
+    {
+         text-decoration: none;
+         color: white;
+         padding: 20px;
+         display: block;
+    }
+
+    .menu li
+    {
+        display: inline-block;
+        text-align: center;
+    }
+
+    .menu li:hover
+    {
+        background-color: rgb(221, 172, 36);
+    }
+
+    p
+    {
+        font-size: 24px;
+    }
+
+    b
+    {
+        font-size: 24px;
+    }
+
+    h1
+    {
+        font-size: 36px;
+    }
+</style>
+
+
+<nav>
+
+ 
+<ul class="menu">  
+    <lu><img src="/Imagenes/Mi proyecto (21).png" width="284" height="75"></lu>
+ <li> <a href="#">Inicio </a></li>
+
+  <li> <a href='@Url.Action("Comenzar")'>Jugar </a></li>
+  <li> <a href= 'Tutorial'>Tutorial</a></li>
+  <li> <a href="Creditos">Sobre nosotros </a></li>
+</ul>
+</nav>
+
+
+
+
+
+<center>
+    
+    <div>
+<h1> La busqueda del tesoro </h1>
+</div>
+<p> Bienvenido a la busqueda del tesoro, estaras muy entretenido tratando de encontrar tu tesoro escondido. Este consiste en resolver 3 advininanzas para ir avanzando en tu busqueda, si lo logras, hayaras tu recompensa...  </p>
+<b>¡¡Mucha suerte!!</b>
+
+<div>
+    <div class="cards">
+<div class="card">
+    <H3>Jugar</H3>
+<a href='@Url.Action("Comenzar")'><img src="/Imagenes/Mi proyecto (19).png"></a>
+</div>
+<div class="card">
+    <h3>Tutorial</h3>
+<a href="Tutorial"><img src="/Imagenes/Mi proyecto (15).png"></a>
+</div>
+<div class="card">
+    <h3>Sobre nosotros</h3>
+<a href="Creditos"><img src="/Imagenes/Mi proyecto (16).png"></a>
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+</center>
+
